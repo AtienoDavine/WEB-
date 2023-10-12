@@ -1,0 +1,29 @@
+body{
+    width: 10px;
+}
+fieldset{
+    Margin:2cm;
+    border-radius:10px ;
+    padding: 1cm 2cm;
+    border: solid 1px;
+    background-color: navajowhite;
+
+}
+legend{
+    font-size: 0.85cm;
+    color: black;
+}
+H2{
+    text-align: center;
+    background-color: seashell;
+}
+label{
+    display: block;
+}
+input{
+border: 1px solid ;
+}
+#sendbtn{
+    border: 0;
+    color: black;
+}

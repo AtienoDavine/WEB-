@@ -1,0 +1,22 @@
+body{
+
+    background:green;
+    text-align:center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    background-color: fuchsia;
+    border-radius:10px;
+    font-size: 36px;
+}
+h1{
+    background-color: blue;
+    border:5px;
+outline-style:solid;
+}.two{
+    border-radius: 5px;
+    width: 100px;
+ }

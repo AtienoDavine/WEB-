@@ -1,0 +1,42 @@
+body{
+    background-color: blue;
+    width: 12px;
+}
+fieldset{
+    Margin:2cm;
+    border-radius:10px ;
+    padding: 1cm 2cm;
+    border: solid 1px;
+    background-color: white;
+    width: 12px;
+    height: 10cm
+}
+a:hover{
+    background-color: blue;
+}
+h3{
+    text-align: center;
+    font:18px bolder;
+    border-bottom: 10px black;
+  
+}
+label{
+    display: block;
+}
+input{
+border: 1px solid ;
+}
+div{
+    display: flex;
+    justify-content: center;
+
+}
+select{
+    border: none;
+    width: 170px;
+    color: yellow;
+    background-color: green;
+}
+.select:hover a{
+    background-color: blue;
+}

@@ -1,0 +1,36 @@
+body{
+border-radius: 10px;
+}
+table{
+    border-radius: 10px
+    
+}
+style{
+    margin: 25px 0;
+    font-size: 1cm;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+
+}
+thead tr{
+    background-color: seagreen;
+    color: white;
+    text-align: left;
+    Font-weight:bold;
+}
+table th,
+table td{
+    padding: 12px 15px;
+
+}
+table tbody tr{
+border-bottom:1px solid grey;
+}
+table tbody tr:nth-of-type(even){
+    background-color: lightgrey;
+    color: seagreen;
+}
+table tbody tr:last-of-type{
+    border-bottom: 2px solid seagreen;
+}
