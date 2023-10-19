@@ -1,31 +1,37 @@
 body{
     background-color: blue;
     width: 12px;
+    font-family: "Calisto MT", "Century Gothic", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
 }
+
 fieldset{
-    Margin:2cm;
-    border-radius:10px ;
-    padding: 1cm 2cm;
-    border: solid 1px;
-    background-color: white;
-    width: 12px;
-    height: 10cm
-}
-a:hover{
-    background-color: blue;
+        border: 2px solid #7E7B7BFF;
+        padding: 20px;
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: #f5f5f5;
+        box-shadow: 0 8px 30px 0 rgba(0,0,0,0.2);
 }
 h3{
-    text-align: center;
-    font:18px bolder;
-    border-bottom: 10px black;
-  
-}
+ text-align: center;
+        font-weight: bold;
+        color: #333;
+        font-size: 18px;}
+
 label{
     display: block;
+font-weight: bold;
+    color: #666;
 }
-input{
-border: 1px solid ;
-}
+ input[type="text"],
+    input[type="email"],
+    select {
+        width: 90%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+    }
 div{
     display: flex;
     justify-content: center;
@@ -35,7 +41,8 @@ select{
     border: none;
     width: 170px;
     color: yellow;
-    background-color: green;
+        color: rgba(180, 217, 122, 0.92);
+        background-color: #3F5B0CEA;
 }
 .select:hover a{
     background-color: blue;
